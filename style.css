@@ -1,0 +1,47 @@
+.body {
+  background-color: seagreen;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.terminal {
+  font-family: "OCR A", monospace;
+  background-color: darkgreen;
+  color: lightgreen;
+  margin: 5em 0 0 0;
+  padding: 0.5em 2em;
+  width: 760px;
+}
+
+a:link {
+  color: #006600;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(255, 105, 223);
+}
+
+a:hover {
+  color: rgb(128, 105, 255);
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(255, 105, 138);
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+@font-face {
+font-family: "OCR A";
+src: url("./fonts/OCRAEXT.TTF") format('truetype');
+}
