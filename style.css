@@ -10,8 +10,14 @@
   background-color: darkgreen;
   color: lightgreen;
   margin: 5em 0 0 0;
-  padding: 0.5em 2em;
-  width: 760px;
+  padding: 1em 2em;
+  width: 800px;
+
+  background-color: black;
+  background-image: radial-gradient(
+    rgba(0, 150, 0, 0.75), black 120%
+  );
+  text-shadow: 0 0 2px #C8C8C8;
 }
 
 a:link {
