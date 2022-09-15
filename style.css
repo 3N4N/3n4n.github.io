@@ -43,5 +43,5 @@ a:active {
 
 @font-face {
 font-family: "OCR A";
-src: url("./fonts/OCRAEXT.TTF") format('truetype');
+src: url("/fonts/OCRAEXT.TTF") format('truetype');
 }
