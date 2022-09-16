@@ -20,6 +20,15 @@
   text-shadow: 0 0 2px #C8C8C8;
 }
 
+p.indent {
+  text-indent: 2em;
+  margin: 0;
+}
+
+.tbl th, td {
+  padding: 0 1em 0 1em;
+}
+
 a:link {
   color: #006600;
   text-decoration: none;
