@@ -7,10 +7,9 @@
 }
 .terminal {
   font-family: "OCR A", monospace;
-  background-color: darkgreen;
   color: lightgreen;
   margin: 5em 0 0 0;
-  padding: 1em 2em;
+  padding: 0 2em 1em 2em;
   width: 800px;
 
   background-color: black;
@@ -18,6 +17,10 @@
     rgba(0, 150, 0, 0.75), black 120%
   );
   text-shadow: 0 0 2px #C8C8C8;
+}
+
+p.noindent {
+  margin: 2em 0 1em 0;
 }
 
 p.indent {
