@@ -28,20 +28,20 @@ p.indent {
   padding: 0 1em 0 1em;
 }
 
-a:link {
-  color: #006600;
-  text-decoration: none;
-}
-a:visited {
-  color: rgb(255, 105, 223);
-}
-a:hover {
-  color: rgb(128, 105, 255);
-  text-decoration: underline;
-}
-a:active {
-  color: rgb(255, 105, 138);
-}
+/* a:link { */
+/*   color: #006600; */
+/*   text-decoration: none; */
+/* } */
+/* a:visited { */
+/*   color: rgb(255, 105, 223); */
+/* } */
+/* a:hover { */
+/*   color: rgb(128, 105, 255); */
+/*   text-decoration: underline; */
+/* } */
+/* a:active { */
+/*   color: rgb(255, 105, 138); */
+/* } */
 
 .blink {
   animation: blinker 1.5s step-end infinite;
