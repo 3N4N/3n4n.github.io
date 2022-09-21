@@ -1,30 +1,26 @@
 .body {
-  background-color: seagreen;
+  /* background-color: seagreen; */
 }
 .container {
   display: flex;
   justify-content: center;
 }
 .terminal {
-  font-family: "OCR A", monospace;
-  color: lightgreen;
-  margin: 5em 0 0 0;
+  /* font-family: "OCR A", monospace; */
+  font-family: "JetBrains Mono", monospace;
+  color: #444444;
+  margin: 1em 0 0 0;
   padding: 0 2em 1em 2em;
   width: 800px;
-
-  background-color: black;
-  background-image: radial-gradient(
-    rgba(0, 150, 0, 0.75), black 120%
-  );
-  text-shadow: 0 0 2px #C8C8C8;
+  /* text-align: justify; */
 }
 
 p.noindent {
-  margin: 2em 0 1em 0;
+  margin: 1em 0 1em 0;
 }
 
 p.indent {
-  text-indent: 2em;
+  text-indent: 1.2em;
   margin: 0;
 }
 
@@ -36,16 +32,13 @@ a:link {
   color: #006600;
   text-decoration: none;
 }
-
 a:visited {
   color: rgb(255, 105, 223);
 }
-
 a:hover {
   color: rgb(128, 105, 255);
   text-decoration: underline;
 }
-
 a:active {
   color: rgb(255, 105, 138);
 }
@@ -63,3 +56,13 @@ a:active {
 font-family: "OCR A";
 src: url("/fonts/OCRAEXT.TTF") format('truetype');
 }
+
+@font-face {
+  font-style: normal;
+  font-family: "JetBrains Mono";
+  src: local("JetBrains Mono"), local("JetBrains-Mono"),
+       url("/fonts/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2") format("woff2"),
+       url("/fonts/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff") format("woff"),
+       url("/fonts/JetBrainsMono/web/eot/JetBrainsMono-Regular.eot") format("embedded-opentype"),
+       url("/fonts/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf") format("truetype");
+};
