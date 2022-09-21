@@ -44,9 +44,12 @@ a:active {
 }
 
 .blink {
-  animation: blinker 1s linear infinite;
+  animation: blinker 1.5s step-end infinite;
 }
 @keyframes blinker {
+  from, to {
+    opacity: 100;
+  }
   50% {
     opacity: 0;
   }
