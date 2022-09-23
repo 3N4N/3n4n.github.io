@@ -1,4 +1,4 @@
-name: Deploy to GitHub
+name: Deploy
 
 on:
   push:
@@ -11,6 +11,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+
+      - name: Deploy to neocities
+        uses: bcomnes/deploy-to-neocities@v1.1.9
+        with:
+          api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
+          cleanup: true
+          dist_dir: src
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
